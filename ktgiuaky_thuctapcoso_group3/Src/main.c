@@ -297,6 +297,9 @@ static void BuzzerControl_SetStatus(GPIO_TypeDef* GPIOx, uint8_t GPIO_PIN, uint8
 
 int main(void)
 {
+	int cnt = 0;
+	int cnt1 = 0;
+
 	AppCommon();
 	Led_Init_red1();
 	Led_Init_red2();
@@ -346,15 +349,45 @@ int main(void)
 		}
 
 		// yeu cau 3
-		if (ButtonRead_Status(BUTTONA4_GPIO_PORT, BUTTONA4_PIN) == 0) {
+//		if (ButtonRead_Status(BUTTONA4_GPIO_PORT, BUTTONA4_PIN) == 0) {
+//			LEDControl_SetStatus(LEDREDA3_GPIO_PORT, LEDREDA3_PIN, 1);
+//			LEDControl_SetStatus(LEDREDA10_GPIO_PORT, LEDREDA10_PIN, 1);
+//		}
+//
+//		// yeu cau 4
+//		if (ButtonRead_Status(BUTTONB0_GPIO_PORT, BUTTONB0_PIN) == 0) {
+//			LEDControl_SetStatus(LEDREDA3_GPIO_PORT, LEDREDA3_PIN, 0);
+//			LEDControl_SetStatus(LEDREDA10_GPIO_PORT, LEDREDA10_PIN, 0);
+//		}
+
+		while (ButtonRead_Status(BUTTONA4_GPIO_PORT, BUTTONA4_PIN) == 0) {
+			delay_ms(1000);
+			cnt++;
+			if (cnt >= 3) {
+				break;
+			}
+		}
+		if (cnt >= 3) {
 			LEDControl_SetStatus(LEDREDA3_GPIO_PORT, LEDREDA3_PIN, 1);
 			LEDControl_SetStatus(LEDREDA10_GPIO_PORT, LEDREDA10_PIN, 1);
+			cnt = 0;
+		} else {
+			cnt = 0;
 		}
 
-		// yeu cau 4
-		if (ButtonRead_Status(BUTTONB0_GPIO_PORT, BUTTONB0_PIN) == 0) {
+		while (ButtonRead_Status(BUTTONB0_GPIO_PORT, BUTTONB0_PIN) == 0) {
+			delay_ms(1000);
+			cnt1++;
+			if (cnt1 >= 3) {
+				break;
+			}
+		}
+		if (cnt1 >= 3) {
 			LEDControl_SetStatus(LEDREDA3_GPIO_PORT, LEDREDA3_PIN, 0);
 			LEDControl_SetStatus(LEDREDA10_GPIO_PORT, LEDREDA10_PIN, 0);
+			cnt1 = 0;
+		} else {
+			cnt1 = 0;
 		}
 	}
 

@@ -2706,7 +2706,7 @@ LOAD d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.
                 0x0000000008000000                g_pfnVectors
                 0x0000000008000194                . = ALIGN (0x4)
 
-.text           0x00000000080001a0     0x4b74
+.text           0x00000000080001a0     0x4b98
                 0x00000000080001a0                . = ALIGN (0x4)
  *(.text)
  .text          0x00000000080001a0       0x40 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
@@ -2738,613 +2738,613 @@ LOAD d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.
  .text.BuzzerControl_SetStatus
                 0x0000000008000506       0x60 ./Src/main.o
  *fill*         0x0000000008000566        0x2 
- .text.main     0x0000000008000568      0x12c ./Src/main.o
+ .text.main     0x0000000008000568      0x150 ./Src/main.o
                 0x0000000008000568                main
  .text.delay_ms
-                0x0000000008000694       0x30 ./Src/main.o
-                0x0000000008000694                delay_ms
+                0x00000000080006b8       0x30 ./Src/main.o
+                0x00000000080006b8                delay_ms
  .text.CalculatorTime
-                0x00000000080006c4       0x34 ./Src/main.o
-                0x00000000080006c4                CalculatorTime
+                0x00000000080006e8       0x34 ./Src/main.o
+                0x00000000080006e8                CalculatorTime
  .text.AppCommon
-                0x00000000080006f8       0x7c ./Src/main.o
+                0x000000000800071c       0x7c ./Src/main.o
  .text.SPI1_Init
-                0x0000000008000774       0x60 ./Src/main.o
+                0x0000000008000798       0x60 ./Src/main.o
  .text.I2C_Init_temphumi
-                0x00000000080007d4       0x94 ./Src/main.o
+                0x00000000080007f8       0x94 ./Src/main.o
  .text.I2C_start
-                0x0000000008000868       0x3c ./Src/main.o
-                0x0000000008000868                I2C_start
+                0x000000000800088c       0x3c ./Src/main.o
+                0x000000000800088c                I2C_start
  .text.I2C_address_direction
-                0x00000000080008a4       0x60 ./Src/main.o
-                0x00000000080008a4                I2C_address_direction
+                0x00000000080008c8       0x60 ./Src/main.o
+                0x00000000080008c8                I2C_address_direction
  .text.I2C_transmit
-                0x0000000008000904       0x38 ./Src/main.o
-                0x0000000008000904                I2C_transmit
+                0x0000000008000928       0x38 ./Src/main.o
+                0x0000000008000928                I2C_transmit
  .text.I2C_stop
-                0x000000000800093c       0x14 ./Src/main.o
-                0x000000000800093c                I2C_stop
+                0x0000000008000960       0x14 ./Src/main.o
+                0x0000000008000960                I2C_stop
  .text.I2C_receive_nack
-                0x0000000008000950       0x30 ./Src/main.o
-                0x0000000008000950                I2C_receive_nack
+                0x0000000008000974       0x30 ./Src/main.o
+                0x0000000008000974                I2C_receive_nack
  .text.I2C_receive_ack
-                0x0000000008000980       0x30 ./Src/main.o
-                0x0000000008000980                I2C_receive_ack
+                0x00000000080009a4       0x30 ./Src/main.o
+                0x00000000080009a4                I2C_receive_ack
  .text.TemHumSensor_readRegister
-                0x00000000080009b0       0xba ./Src/main.o
- *fill*         0x0000000008000a6a        0x2 
+                0x00000000080009d4       0xba ./Src/main.o
+ *fill*         0x0000000008000a8e        0x2 
  .text.GetTemp_Sensor
-                0x0000000008000a6c       0x64 ./Src/main.o
-                0x0000000008000a6c                GetTemp_Sensor
+                0x0000000008000a90       0x64 ./Src/main.o
+                0x0000000008000a90                GetTemp_Sensor
  .text.GetHumi_Sensor
-                0x0000000008000ad0       0x64 ./Src/main.o
-                0x0000000008000ad0                GetHumi_Sensor
+                0x0000000008000af4       0x64 ./Src/main.o
+                0x0000000008000af4                GetHumi_Sensor
  .text.processGetValueSensor
-                0x0000000008000b34      0x1a4 ./Src/main.o
-                0x0000000008000b34                processGetValueSensor
+                0x0000000008000b58      0x1a4 ./Src/main.o
+                0x0000000008000b58                processGetValueSensor
  .text.Scan_SensorLCD
-                0x0000000008000cd8       0x8c ./Src/main.o
-                0x0000000008000cd8                Scan_SensorLCD
+                0x0000000008000cfc       0x8c ./Src/main.o
+                0x0000000008000cfc                Scan_SensorLCD
  .text.Scan_TimeSensor
-                0x0000000008000d64       0x48 ./Src/main.o
-                0x0000000008000d64                Scan_TimeSensor
- .text._sbrk    0x0000000008000dac       0x6c ./Src/sysmem.o
-                0x0000000008000dac                _sbrk
+                0x0000000008000d88       0x48 ./Src/main.o
+                0x0000000008000d88                Scan_TimeSensor
+ .text._sbrk    0x0000000008000dd0       0x6c ./Src/sysmem.o
+                0x0000000008000dd0                _sbrk
  .text.Reset_Handler
-                0x0000000008000e18       0x50 ./Startup/startup_stm32f401retx.o
-                0x0000000008000e18                Reset_Handler
+                0x0000000008000e3c       0x50 ./Startup/startup_stm32f401retx.o
+                0x0000000008000e3c                Reset_Handler
  .text.Default_Handler
-                0x0000000008000e68        0x2 ./Startup/startup_stm32f401retx.o
-                0x0000000008000e68                EXTI2_IRQHandler
-                0x0000000008000e68                DebugMon_Handler
-                0x0000000008000e68                SPI4_IRQHandler
-                0x0000000008000e68                TIM1_CC_IRQHandler
-                0x0000000008000e68                DMA2_Stream5_IRQHandler
-                0x0000000008000e68                HardFault_Handler
-                0x0000000008000e68                DMA1_Stream5_IRQHandler
-                0x0000000008000e68                SDIO_IRQHandler
-                0x0000000008000e68                TAMP_STAMP_IRQHandler
-                0x0000000008000e68                PendSV_Handler
-                0x0000000008000e68                NMI_Handler
-                0x0000000008000e68                EXTI3_IRQHandler
-                0x0000000008000e68                TIM1_UP_TIM10_IRQHandler
-                0x0000000008000e68                I2C3_ER_IRQHandler
-                0x0000000008000e68                EXTI18_OTG_FS_WKUP_IRQHandler
-                0x0000000008000e68                EXTI0_IRQHandler
-                0x0000000008000e68                I2C2_EV_IRQHandler
-                0x0000000008000e68                DMA1_Stream2_IRQHandler
-                0x0000000008000e68                UsageFault_Handler
-                0x0000000008000e68                DMA2_Stream2_IRQHandler
-                0x0000000008000e68                SPI1_IRQHandler
-                0x0000000008000e68                TIM1_BRK_TIM9_IRQHandler
-                0x0000000008000e68                DMA2_Stream3_IRQHandler
-                0x0000000008000e68                USART6_IRQHandler
-                0x0000000008000e68                DMA2_Stream0_IRQHandler
-                0x0000000008000e68                TIM4_IRQHandler
-                0x0000000008000e68                I2C1_EV_IRQHandler
-                0x0000000008000e68                DMA1_Stream6_IRQHandler
-                0x0000000008000e68                DMA1_Stream1_IRQHandler
-                0x0000000008000e68                TIM3_IRQHandler
-                0x0000000008000e68                RCC_IRQHandler
-                0x0000000008000e68                Default_Handler
-                0x0000000008000e68                EXTI15_10_IRQHandler
-                0x0000000008000e68                ADC_IRQHandler
-                0x0000000008000e68                DMA1_Stream7_IRQHandler
-                0x0000000008000e68                TIM5_IRQHandler
-                0x0000000008000e68                DMA2_Stream7_IRQHandler
-                0x0000000008000e68                I2C3_EV_IRQHandler
-                0x0000000008000e68                EXTI9_5_IRQHandler
-                0x0000000008000e68                SPI2_IRQHandler
-                0x0000000008000e68                MemManage_Handler
-                0x0000000008000e68                DMA1_Stream0_IRQHandler
-                0x0000000008000e68                SVC_Handler
-                0x0000000008000e68                EXTI4_IRQHandler
-                0x0000000008000e68                EXTI22_RTC_WKUP_IRQHandler
-                0x0000000008000e68                TIM2_IRQHandler
-                0x0000000008000e68                EXTI16_PVD_IRQHandler
-                0x0000000008000e68                TIM1_TRG_COM_TIM11_IRQHandler
-                0x0000000008000e68                EXTI1_IRQHandler
-                0x0000000008000e68                EXTI17_RTC_Alarm_IRQHandler
-                0x0000000008000e68                I2C2_ER_IRQHandler
-                0x0000000008000e68                DMA2_Stream1_IRQHandler
-                0x0000000008000e68                FLASH_IRQHandler
-                0x0000000008000e68                DMA2_Stream4_IRQHandler
-                0x0000000008000e68                BusFault_Handler
-                0x0000000008000e68                USART1_IRQHandler
-                0x0000000008000e68                OTG_FS_IRQHandler
-                0x0000000008000e68                SPI3_IRQHandler
-                0x0000000008000e68                DMA1_Stream4_IRQHandler
-                0x0000000008000e68                I2C1_ER_IRQHandler
-                0x0000000008000e68                DMA2_Stream6_IRQHandler
-                0x0000000008000e68                DMA1_Stream3_IRQHandler
- *fill*         0x0000000008000e6a        0x2 
+                0x0000000008000e8c        0x2 ./Startup/startup_stm32f401retx.o
+                0x0000000008000e8c                EXTI2_IRQHandler
+                0x0000000008000e8c                DebugMon_Handler
+                0x0000000008000e8c                SPI4_IRQHandler
+                0x0000000008000e8c                TIM1_CC_IRQHandler
+                0x0000000008000e8c                DMA2_Stream5_IRQHandler
+                0x0000000008000e8c                HardFault_Handler
+                0x0000000008000e8c                DMA1_Stream5_IRQHandler
+                0x0000000008000e8c                SDIO_IRQHandler
+                0x0000000008000e8c                TAMP_STAMP_IRQHandler
+                0x0000000008000e8c                PendSV_Handler
+                0x0000000008000e8c                NMI_Handler
+                0x0000000008000e8c                EXTI3_IRQHandler
+                0x0000000008000e8c                TIM1_UP_TIM10_IRQHandler
+                0x0000000008000e8c                I2C3_ER_IRQHandler
+                0x0000000008000e8c                EXTI18_OTG_FS_WKUP_IRQHandler
+                0x0000000008000e8c                EXTI0_IRQHandler
+                0x0000000008000e8c                I2C2_EV_IRQHandler
+                0x0000000008000e8c                DMA1_Stream2_IRQHandler
+                0x0000000008000e8c                UsageFault_Handler
+                0x0000000008000e8c                DMA2_Stream2_IRQHandler
+                0x0000000008000e8c                SPI1_IRQHandler
+                0x0000000008000e8c                TIM1_BRK_TIM9_IRQHandler
+                0x0000000008000e8c                DMA2_Stream3_IRQHandler
+                0x0000000008000e8c                USART6_IRQHandler
+                0x0000000008000e8c                DMA2_Stream0_IRQHandler
+                0x0000000008000e8c                TIM4_IRQHandler
+                0x0000000008000e8c                I2C1_EV_IRQHandler
+                0x0000000008000e8c                DMA1_Stream6_IRQHandler
+                0x0000000008000e8c                DMA1_Stream1_IRQHandler
+                0x0000000008000e8c                TIM3_IRQHandler
+                0x0000000008000e8c                RCC_IRQHandler
+                0x0000000008000e8c                Default_Handler
+                0x0000000008000e8c                EXTI15_10_IRQHandler
+                0x0000000008000e8c                ADC_IRQHandler
+                0x0000000008000e8c                DMA1_Stream7_IRQHandler
+                0x0000000008000e8c                TIM5_IRQHandler
+                0x0000000008000e8c                DMA2_Stream7_IRQHandler
+                0x0000000008000e8c                I2C3_EV_IRQHandler
+                0x0000000008000e8c                EXTI9_5_IRQHandler
+                0x0000000008000e8c                SPI2_IRQHandler
+                0x0000000008000e8c                MemManage_Handler
+                0x0000000008000e8c                DMA1_Stream0_IRQHandler
+                0x0000000008000e8c                SVC_Handler
+                0x0000000008000e8c                EXTI4_IRQHandler
+                0x0000000008000e8c                EXTI22_RTC_WKUP_IRQHandler
+                0x0000000008000e8c                TIM2_IRQHandler
+                0x0000000008000e8c                EXTI16_PVD_IRQHandler
+                0x0000000008000e8c                TIM1_TRG_COM_TIM11_IRQHandler
+                0x0000000008000e8c                EXTI1_IRQHandler
+                0x0000000008000e8c                EXTI17_RTC_Alarm_IRQHandler
+                0x0000000008000e8c                I2C2_ER_IRQHandler
+                0x0000000008000e8c                DMA2_Stream1_IRQHandler
+                0x0000000008000e8c                FLASH_IRQHandler
+                0x0000000008000e8c                DMA2_Stream4_IRQHandler
+                0x0000000008000e8c                BusFault_Handler
+                0x0000000008000e8c                USART1_IRQHandler
+                0x0000000008000e8c                OTG_FS_IRQHandler
+                0x0000000008000e8c                SPI3_IRQHandler
+                0x0000000008000e8c                DMA1_Stream4_IRQHandler
+                0x0000000008000e8c                I2C1_ER_IRQHandler
+                0x0000000008000e8c                DMA2_Stream6_IRQHandler
+                0x0000000008000e8c                DMA1_Stream3_IRQHandler
+ *fill*         0x0000000008000e8e        0x2 
  .text.SystemInit
-                0x0000000008000e6c       0x6c D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(system_stm32f4xx.o)
-                0x0000000008000e6c                SystemInit
+                0x0000000008000e90       0x6c D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(system_stm32f4xx.o)
+                0x0000000008000e90                SystemInit
  .text.SystemCoreClockUpdate
-                0x0000000008000ed8       0xf8 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(system_stm32f4xx.o)
-                0x0000000008000ed8                SystemCoreClockUpdate
+                0x0000000008000efc       0xf8 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(system_stm32f4xx.o)
+                0x0000000008000efc                SystemCoreClockUpdate
  .text.SetSysClock
-                0x0000000008000fd0       0xa0 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(system_stm32f4xx.o)
+                0x0000000008000ff4       0xa0 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(system_stm32f4xx.o)
  .text.GPIO_Init
-                0x0000000008001070      0x11c D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_gpio.o)
-                0x0000000008001070                GPIO_Init
+                0x0000000008001094      0x11c D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_gpio.o)
+                0x0000000008001094                GPIO_Init
  .text.GPIO_WriteBit
-                0x000000000800118c       0x30 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_gpio.o)
-                0x000000000800118c                GPIO_WriteBit
+                0x00000000080011b0       0x30 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_gpio.o)
+                0x00000000080011b0                GPIO_WriteBit
  .text.GPIO_PinAFConfig
-                0x00000000080011bc       0x92 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_gpio.o)
-                0x00000000080011bc                GPIO_PinAFConfig
- *fill*         0x000000000800124e        0x2 
+                0x00000000080011e0       0x92 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_gpio.o)
+                0x00000000080011e0                GPIO_PinAFConfig
+ *fill*         0x0000000008001272        0x2 
  .text.I2C_Init
-                0x0000000008001250      0x184 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_i2c.o)
-                0x0000000008001250                I2C_Init
- .text.I2C_Cmd  0x00000000080013d4       0x40 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_i2c.o)
-                0x00000000080013d4                I2C_Cmd
+                0x0000000008001274      0x184 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_i2c.o)
+                0x0000000008001274                I2C_Init
+ .text.I2C_Cmd  0x00000000080013f8       0x40 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_i2c.o)
+                0x00000000080013f8                I2C_Cmd
  .text.I2C_GenerateSTART
-                0x0000000008001414       0x40 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_i2c.o)
-                0x0000000008001414                I2C_GenerateSTART
+                0x0000000008001438       0x40 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_i2c.o)
+                0x0000000008001438                I2C_GenerateSTART
  .text.I2C_GenerateSTOP
-                0x0000000008001454       0x40 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_i2c.o)
-                0x0000000008001454                I2C_GenerateSTOP
+                0x0000000008001478       0x40 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_i2c.o)
+                0x0000000008001478                I2C_GenerateSTOP
  .text.I2C_Send7bitAddress
-                0x0000000008001494       0x3c D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_i2c.o)
-                0x0000000008001494                I2C_Send7bitAddress
+                0x00000000080014b8       0x3c D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_i2c.o)
+                0x00000000080014b8                I2C_Send7bitAddress
  .text.I2C_AcknowledgeConfig
-                0x00000000080014d0       0x40 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_i2c.o)
-                0x00000000080014d0                I2C_AcknowledgeConfig
+                0x00000000080014f4       0x40 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_i2c.o)
+                0x00000000080014f4                I2C_AcknowledgeConfig
  .text.I2C_SendData
-                0x0000000008001510       0x20 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_i2c.o)
-                0x0000000008001510                I2C_SendData
+                0x0000000008001534       0x20 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_i2c.o)
+                0x0000000008001534                I2C_SendData
  .text.I2C_ReceiveData
-                0x0000000008001530       0x1c D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_i2c.o)
-                0x0000000008001530                I2C_ReceiveData
+                0x0000000008001554       0x1c D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_i2c.o)
+                0x0000000008001554                I2C_ReceiveData
  .text.I2C_CheckEvent
-                0x000000000800154c       0x60 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_i2c.o)
-                0x000000000800154c                I2C_CheckEvent
+                0x0000000008001570       0x60 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_i2c.o)
+                0x0000000008001570                I2C_CheckEvent
  .text.I2C_GetFlagStatus
-                0x00000000080015ac       0x66 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_i2c.o)
-                0x00000000080015ac                I2C_GetFlagStatus
- *fill*         0x0000000008001612        0x2 
+                0x00000000080015d0       0x66 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_i2c.o)
+                0x00000000080015d0                I2C_GetFlagStatus
+ *fill*         0x0000000008001636        0x2 
  .text.RCC_GetClocksFreq
-                0x0000000008001614      0x150 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_rcc.o)
-                0x0000000008001614                RCC_GetClocksFreq
+                0x0000000008001638      0x150 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_rcc.o)
+                0x0000000008001638                RCC_GetClocksFreq
  .text.RCC_AHB1PeriphClockCmd
-                0x0000000008001764       0x40 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_rcc.o)
-                0x0000000008001764                RCC_AHB1PeriphClockCmd
+                0x0000000008001788       0x40 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_rcc.o)
+                0x0000000008001788                RCC_AHB1PeriphClockCmd
  .text.RCC_APB1PeriphClockCmd
-                0x00000000080017a4       0x40 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_rcc.o)
-                0x00000000080017a4                RCC_APB1PeriphClockCmd
+                0x00000000080017c8       0x40 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_rcc.o)
+                0x00000000080017c8                RCC_APB1PeriphClockCmd
  .text.NVIC_SetPriority
-                0x00000000080017e4       0x54 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(timer.o)
+                0x0000000008001808       0x54 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(timer.o)
  .text.SysTick_Config
-                0x0000000008001838       0x44 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(timer.o)
+                0x000000000800185c       0x44 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(timer.o)
  .text.TimerInit
-                0x000000000800187c       0x44 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(timer.o)
-                0x000000000800187c                TimerInit
+                0x00000000080018a0       0x44 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(timer.o)
+                0x00000000080018a0                TimerInit
  .text.TimerStart
-                0x00000000080018c0       0xc4 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(timer.o)
-                0x00000000080018c0                TimerStart
+                0x00000000080018e4       0xc4 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(timer.o)
+                0x00000000080018e4                TimerStart
  .text.TimerStop
-                0x0000000008001984       0xa0 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(timer.o)
-                0x0000000008001984                TimerStop
+                0x00000000080019a8       0xa0 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(timer.o)
+                0x00000000080019a8                TimerStop
  .text.GetMilSecTick
-                0x0000000008001a24       0x18 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(timer.o)
-                0x0000000008001a24                GetMilSecTick
+                0x0000000008001a48       0x18 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(timer.o)
+                0x0000000008001a48                GetMilSecTick
  .text.processTimerScheduler
-                0x0000000008001a3c       0xf0 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(timer.o)
-                0x0000000008001a3c                processTimerScheduler
+                0x0000000008001a60       0xf0 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(timer.o)
+                0x0000000008001a60                processTimerScheduler
  .text.TimeExpired
-                0x0000000008001b2c       0xcc D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(timer.o)
+                0x0000000008001b50       0xcc D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(timer.o)
  .text.SysTick_Handler
-                0x0000000008001bf8       0x1c D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(timer.o)
-                0x0000000008001bf8                SysTick_Handler
+                0x0000000008001c1c       0x1c D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(timer.o)
+                0x0000000008001c1c                SysTick_Handler
  .text.TemHumSensor_Init
-                0x0000000008001c14        0xc D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(temhumsensor.o)
-                0x0000000008001c14                TemHumSensor_Init
+                0x0000000008001c38        0xc D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(temhumsensor.o)
+                0x0000000008001c38                TemHumSensor_Init
  .text.i2c_config
-                0x0000000008001c20       0x94 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(temhumsensor.o)
-                0x0000000008001c20                i2c_config
+                0x0000000008001c44       0x94 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(temhumsensor.o)
+                0x0000000008001c44                i2c_config
  .text.USART2_IRQHandler
-                0x0000000008001cb4       0x50 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(serial.o)
-                0x0000000008001cb4                USART2_IRQHandler
+                0x0000000008001cd8       0x50 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(serial.o)
+                0x0000000008001cd8                USART2_IRQHandler
  .text.delayMicroseconds
-                0x0000000008001d04       0x14 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(Ucglib.o)
+                0x0000000008001d28       0x14 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(Ucglib.o)
  .text.ucg_gpio_init
-                0x0000000008001d18       0x60 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(Ucglib.o)
+                0x0000000008001d3c       0x60 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(Ucglib.o)
  .text.ucg_com_arduino_send_generic_SW_SPI
-                0x0000000008001d78       0x74 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(Ucglib.o)
+                0x0000000008001d9c       0x74 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(Ucglib.o)
  .text.ucg_com_arduino_generic_SW_SPI
-                0x0000000008001dec      0x1ec D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(Ucglib.o)
+                0x0000000008001e10      0x1ec D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(Ucglib.o)
  .text.Ucglib4WireSWSPI_begin
-                0x0000000008001fd8       0x38 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(Ucglib.o)
-                0x0000000008001fd8                Ucglib4WireSWSPI_begin
+                0x0000000008001ffc       0x38 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(Ucglib.o)
+                0x0000000008001ffc                Ucglib4WireSWSPI_begin
  .text.ucg_DrawBox
-                0x0000000008002010       0x56 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_box.o)
-                0x0000000008002010                ucg_DrawBox
+                0x0000000008002034       0x56 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_box.o)
+                0x0000000008002034                ucg_DrawBox
  .text.ucg_ClearScreen
-                0x0000000008002066       0x50 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_box.o)
-                0x0000000008002066                ucg_ClearScreen
+                0x000000000800208a       0x50 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_box.o)
+                0x000000000800208a                ucg_ClearScreen
  .text.ucg_ccs_init
-                0x00000000080020b6       0xc0 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_ccs.o)
-                0x00000000080020b6                ucg_ccs_init
+                0x00000000080020da       0xc0 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_ccs.o)
+                0x00000000080020da                ucg_ccs_init
  .text.ucg_ccs_step
-                0x0000000008002176       0x80 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_ccs.o)
-                0x0000000008002176                ucg_ccs_step
+                0x000000000800219a       0x80 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_ccs.o)
+                0x000000000800219a                ucg_ccs_step
  .text.ucg_ccs_seek
-                0x00000000080021f6       0xca D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_ccs.o)
-                0x00000000080021f6                ucg_ccs_seek
+                0x000000000800221a       0xca D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_ccs.o)
+                0x000000000800221a                ucg_ccs_seek
  .text.ucg_dev_default_cb
-                0x00000000080022c0       0x44 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_default_cb.o)
-                0x00000000080022c0                ucg_dev_default_cb
+                0x00000000080022e4       0x44 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_default_cb.o)
+                0x00000000080022e4                ucg_dev_default_cb
  .text.ucg_ext_none
-                0x0000000008002304       0x1c D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_default_cb.o)
-                0x0000000008002304                ucg_ext_none
+                0x0000000008002328       0x1c D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_default_cb.o)
+                0x0000000008002328                ucg_ext_none
  .text.ucg_handle_st7735_l90fx
-                0x0000000008002320       0xd8 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_ic_st7735.o)
-                0x0000000008002320                ucg_handle_st7735_l90fx
+                0x0000000008002344       0xd8 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_ic_st7735.o)
+                0x0000000008002344                ucg_handle_st7735_l90fx
  .text.ucg_handle_st7735_l90se
-                0x00000000080023f8      0x154 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_ic_st7735.o)
-                0x00000000080023f8                ucg_handle_st7735_l90se
+                0x000000000800241c      0x154 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_ic_st7735.o)
+                0x000000000800241c                ucg_handle_st7735_l90se
  .text.ucg_dev_ic_st7735_18
-                0x000000000800254c       0xf8 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_ic_st7735.o)
-                0x000000000800254c                ucg_dev_ic_st7735_18
+                0x0000000008002570       0xf8 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_ic_st7735.o)
+                0x0000000008002570                ucg_dev_ic_st7735_18
  .text.ucg_ext_st7735_18
-                0x0000000008002644       0x28 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_ic_st7735.o)
-                0x0000000008002644                ucg_ext_st7735_18
+                0x0000000008002668       0x28 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_ic_st7735.o)
+                0x0000000008002668                ucg_ext_st7735_18
  .text.ucg_PowerDown
-                0x000000000800266c       0x34 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_msg_api.o)
-                0x000000000800266c                ucg_PowerDown
+                0x0000000008002690       0x34 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_msg_api.o)
+                0x0000000008002690                ucg_PowerDown
  .text.ucg_PowerUp
-                0x00000000080026a0       0x3c D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_msg_api.o)
-                0x00000000080026a0                ucg_PowerUp
+                0x00000000080026c4       0x3c D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_msg_api.o)
+                0x00000000080026c4                ucg_PowerUp
  .text.ucg_SetClipBox
-                0x00000000080026dc       0x1e D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_msg_api.o)
-                0x00000000080026dc                ucg_SetClipBox
+                0x0000000008002700       0x1e D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_msg_api.o)
+                0x0000000008002700                ucg_SetClipBox
  .text.ucg_SetMaxClipRange
-                0x00000000080026fa       0x30 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_msg_api.o)
-                0x00000000080026fa                ucg_SetMaxClipRange
+                0x000000000800271e       0x30 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_msg_api.o)
+                0x000000000800271e                ucg_SetMaxClipRange
  .text.ucg_GetDimension
-                0x000000000800272a       0x24 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_msg_api.o)
-                0x000000000800272a                ucg_GetDimension
+                0x000000000800274e       0x24 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_msg_api.o)
+                0x000000000800274e                ucg_GetDimension
  .text.ucg_DrawL90FXWithArg
-                0x000000000800274e       0x1e D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_msg_api.o)
-                0x000000000800274e                ucg_DrawL90FXWithArg
+                0x0000000008002772       0x1e D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_msg_api.o)
+                0x0000000008002772                ucg_DrawL90FXWithArg
  .text.ucg_dev_st7735_18x128x128
-                0x000000000800276c       0x80 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_tft_128x128_st7735.o)
-                0x000000000800276c                ucg_dev_st7735_18x128x128
+                0x0000000008002790       0x80 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_tft_128x128_st7735.o)
+                0x0000000008002790                ucg_dev_st7735_18x128x128
  .text.ucg_font_get_byte
-                0x00000000080027ec       0x24 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
+                0x0000000008002810       0x24 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
  .text.ucg_font_get_word
-                0x0000000008002810       0x40 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
+                0x0000000008002834       0x40 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
  .text.ucg_read_font_info
-                0x0000000008002850      0x142 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
-                0x0000000008002850                ucg_read_font_info
+                0x0000000008002874      0x142 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
+                0x0000000008002874                ucg_read_font_info
  .text.ucg_font_decode_get_unsigned_bits
-                0x0000000008002992       0x96 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
-                0x0000000008002992                ucg_font_decode_get_unsigned_bits
+                0x00000000080029b6       0x96 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
+                0x00000000080029b6                ucg_font_decode_get_unsigned_bits
  .text.ucg_font_decode_get_signed_bits
-                0x0000000008002a28       0x46 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
-                0x0000000008002a28                ucg_font_decode_get_signed_bits
+                0x0000000008002a4c       0x46 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
+                0x0000000008002a4c                ucg_font_decode_get_signed_bits
  .text.ucg_add_vector_y
-                0x0000000008002a6e       0x7a D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
+                0x0000000008002a92       0x7a D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
  .text.ucg_add_vector_x
-                0x0000000008002ae8       0x7a D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
+                0x0000000008002b0c       0x7a D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
  .text.ucg_font_decode_len
-                0x0000000008002b62      0x118 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
-                0x0000000008002b62                ucg_font_decode_len
+                0x0000000008002b86      0x118 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
+                0x0000000008002b86                ucg_font_decode_len
  .text.ucg_font_setup_decode
-                0x0000000008002c7a       0x64 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
+                0x0000000008002c9e       0x64 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
  .text.ucg_font_decode_glyph
-                0x0000000008002cde      0x14c D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
-                0x0000000008002cde                ucg_font_decode_glyph
+                0x0000000008002d02      0x14c D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
+                0x0000000008002d02                ucg_font_decode_glyph
  .text.ucg_font_get_glyph_data
-                0x0000000008002e2a       0x7a D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
-                0x0000000008002e2a                ucg_font_get_glyph_data
+                0x0000000008002e4e       0x7a D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
+                0x0000000008002e4e                ucg_font_get_glyph_data
  .text.ucg_font_draw_glyph
-                0x0000000008002ea4       0x62 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
-                0x0000000008002ea4                ucg_font_draw_glyph
+                0x0000000008002ec8       0x62 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
+                0x0000000008002ec8                ucg_font_draw_glyph
  .text.ucg_SetFontMode
-                0x0000000008002f06       0x20 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
-                0x0000000008002f06                ucg_SetFontMode
- *fill*         0x0000000008002f26        0x2 
+                0x0000000008002f2a       0x20 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
+                0x0000000008002f2a                ucg_SetFontMode
+ *fill*         0x0000000008002f4a        0x2 
  .text.ucg_DrawGlyph
-                0x0000000008002f28       0xb0 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
-                0x0000000008002f28                ucg_DrawGlyph
+                0x0000000008002f4c       0xb0 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
+                0x0000000008002f4c                ucg_DrawGlyph
  .text.task_drawString
-                0x0000000008002fd8      0x138 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
-                0x0000000008002fd8                task_drawString
+                0x0000000008002ffc      0x138 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
+                0x0000000008002ffc                task_drawString
  .text.ucg_DrawString
-                0x0000000008003110       0x78 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
-                0x0000000008003110                ucg_DrawString
+                0x0000000008003134       0x78 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
+                0x0000000008003134                ucg_DrawString
  .text.ucg_UpdateRefHeight
-                0x0000000008003188       0xd8 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
-                0x0000000008003188                ucg_UpdateRefHeight
+                0x00000000080031ac       0xd8 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
+                0x00000000080031ac                ucg_UpdateRefHeight
  .text.ucg_font_calc_vref_font
-                0x0000000008003260       0x16 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
-                0x0000000008003260                ucg_font_calc_vref_font
- *fill*         0x0000000008003276        0x2 
+                0x0000000008003284       0x16 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
+                0x0000000008003284                ucg_font_calc_vref_font
+ *fill*         0x000000000800329a        0x2 
  .text.ucg_SetFontPosBaseline
-                0x0000000008003278       0x20 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
-                0x0000000008003278                ucg_SetFontPosBaseline
+                0x000000000800329c       0x20 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
+                0x000000000800329c                ucg_SetFontPosBaseline
  .text.ucg_SetFont
-                0x0000000008003298       0x4c D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
-                0x0000000008003298                ucg_SetFont
+                0x00000000080032bc       0x4c D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
+                0x00000000080032bc                ucg_SetFont
  .text.ucg_init_struct
-                0x00000000080032e4       0x50 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_init.o)
-                0x00000000080032e4                ucg_init_struct
+                0x0000000008003308       0x50 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_init.o)
+                0x0000000008003308                ucg_init_struct
  .text.ucg_Init
-                0x0000000008003334       0x5c D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_init.o)
-                0x0000000008003334                ucg_Init
+                0x0000000008003358       0x5c D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_init.o)
+                0x0000000008003358                ucg_Init
  .text.ucg_Draw90Line
-                0x0000000008003390       0x88 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_line.o)
-                0x0000000008003390                ucg_Draw90Line
+                0x00000000080033b4       0x88 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_line.o)
+                0x00000000080033b4                ucg_Draw90Line
  .text.ucg_DrawHLine
-                0x0000000008003418       0x3e D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_line.o)
-                0x0000000008003418                ucg_DrawHLine
+                0x000000000800343c       0x3e D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_line.o)
+                0x000000000800343c                ucg_DrawHLine
  .text.ucg_SetColor
-                0x0000000008003456       0x5c D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_pixel.o)
-                0x0000000008003456                ucg_SetColor
+                0x000000000800347a       0x5c D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_pixel.o)
+                0x000000000800347a                ucg_SetColor
  .text.ucg_UndoRotate
-                0x00000000080034b2       0x32 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_rotate.o)
-                0x00000000080034b2                ucg_UndoRotate
+                0x00000000080034d6       0x32 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_rotate.o)
+                0x00000000080034d6                ucg_UndoRotate
  .text.ucg_rotate_180_xy
-                0x00000000080034e4       0x66 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_rotate.o)
- *fill*         0x000000000800354a        0x2 
+                0x0000000008003508       0x66 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_rotate.o)
+ *fill*         0x000000000800356e        0x2 
  .text.ucg_dev_rotate180
-                0x000000000800354c      0x100 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_rotate.o)
-                0x000000000800354c                ucg_dev_rotate180
+                0x0000000008003570      0x100 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_rotate.o)
+                0x0000000008003570                ucg_dev_rotate180
  .text.ucg_SetRotate180
-                0x000000000800364c       0x34 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_rotate.o)
-                0x000000000800364c                ucg_SetRotate180
- .text.bufInit  0x0000000008003680       0x36 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(buff.o)
-                0x0000000008003680                bufInit
+                0x0000000008003670       0x34 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_rotate.o)
+                0x0000000008003670                ucg_SetRotate180
+ .text.bufInit  0x00000000080036a4       0x36 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(buff.o)
+                0x00000000080036a4                bufInit
  .text.bufNumItems
-                0x00000000080036b6       0x18 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(buff.o)
-                0x00000000080036b6                bufNumItems
+                0x00000000080036da       0x18 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(buff.o)
+                0x00000000080036da                bufNumItems
  .text.bufIsFull
-                0x00000000080036ce       0x26 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(buff.o)
-                0x00000000080036ce                bufIsFull
+                0x00000000080036f2       0x26 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(buff.o)
+                0x00000000080036f2                bufIsFull
  .text.bufIsEmpty
-                0x00000000080036f4       0x26 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(buff.o)
-                0x00000000080036f4                bufIsEmpty
+                0x0000000008003718       0x26 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(buff.o)
+                0x0000000008003718                bufIsEmpty
  .text.bufFlush
-                0x000000000800371a       0x32 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(buff.o)
-                0x000000000800371a                bufFlush
+                0x000000000800373e       0x32 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(buff.o)
+                0x000000000800373e                bufFlush
  .text.bufEnDat
-                0x000000000800374c       0x9c D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(buff.o)
-                0x000000000800374c                bufEnDat
+                0x0000000008003770       0x9c D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(buff.o)
+                0x0000000008003770                bufEnDat
  .text.bufDeDat
-                0x00000000080037e8       0x84 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(buff.o)
-                0x00000000080037e8                bufDeDat
- .text.memsetl  0x000000000800386c       0x32 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(utilities.o)
-                0x000000000800386c                memsetl
+                0x000000000800380c       0x84 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(buff.o)
+                0x000000000800380c                bufDeDat
+ .text.memsetl  0x0000000008003890       0x32 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(utilities.o)
+                0x0000000008003890                memsetl
  .text.USART_ReceiveData
-                0x000000000800389e       0x20 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_usart.o)
-                0x000000000800389e                USART_ReceiveData
+                0x00000000080038c2       0x20 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_usart.o)
+                0x00000000080038c2                USART_ReceiveData
  .text.USART_GetITStatus
-                0x00000000080038be       0xb6 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_usart.o)
-                0x00000000080038be                USART_GetITStatus
+                0x00000000080038e2       0xb6 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_usart.o)
+                0x00000000080038e2                USART_GetITStatus
  .text.USART_ClearITPendingBit
-                0x0000000008003974       0x3a D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_usart.o)
-                0x0000000008003974                USART_ClearITPendingBit
+                0x0000000008003998       0x3a D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_usart.o)
+                0x0000000008003998                USART_ClearITPendingBit
  .text.ucg_clip_is_x_visible
-                0x00000000080039ae       0x4a D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_clip.o)
+                0x00000000080039d2       0x4a D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_clip.o)
  .text.ucg_clip_is_y_visible
-                0x00000000080039f8       0x4a D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_clip.o)
+                0x0000000008003a1c       0x4a D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_clip.o)
  .text.ucg_clip_intersection
-                0x0000000008003a42       0x74 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_clip.o)
+                0x0000000008003a66       0x74 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_clip.o)
  .text.ucg_clip_is_pixel_visible
-                0x0000000008003ab6       0x32 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_clip.o)
-                0x0000000008003ab6                ucg_clip_is_pixel_visible
+                0x0000000008003ada       0x32 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_clip.o)
+                0x0000000008003ada                ucg_clip_is_pixel_visible
  .text.ucg_clip_l90fx
-                0x0000000008003ae8      0x300 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_clip.o)
-                0x0000000008003ae8                ucg_clip_l90fx
+                0x0000000008003b0c      0x300 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_clip.o)
+                0x0000000008003b0c                ucg_clip_l90fx
  .text.ucg_clip_l90se
-                0x0000000008003de8       0x54 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_clip.o)
-                0x0000000008003de8                ucg_clip_l90se
+                0x0000000008003e0c       0x54 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_clip.o)
+                0x0000000008003e0c                ucg_clip_l90se
  .text.ucg_com_PowerDown
-                0x0000000008003e3c       0x3e D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_com_msg_api.o)
-                0x0000000008003e3c                ucg_com_PowerDown
+                0x0000000008003e60       0x3e D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_com_msg_api.o)
+                0x0000000008003e60                ucg_com_PowerDown
  .text.ucg_com_PowerUp
-                0x0000000008003e7a       0x60 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_com_msg_api.o)
-                0x0000000008003e7a                ucg_com_PowerUp
+                0x0000000008003e9e       0x60 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_com_msg_api.o)
+                0x0000000008003e9e                ucg_com_PowerUp
  .text.ucg_com_SetLineStatus
-                0x0000000008003eda       0xe2 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_com_msg_api.o)
-                0x0000000008003eda                ucg_com_SetLineStatus
+                0x0000000008003efe       0xe2 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_com_msg_api.o)
+                0x0000000008003efe                ucg_com_SetLineStatus
  .text.ucg_com_SetResetLineStatus
-                0x0000000008003fbc       0x20 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_com_msg_api.o)
-                0x0000000008003fbc                ucg_com_SetResetLineStatus
+                0x0000000008003fe0       0x20 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_com_msg_api.o)
+                0x0000000008003fe0                ucg_com_SetResetLineStatus
  .text.ucg_com_SetCSLineStatus
-                0x0000000008003fdc       0x20 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_com_msg_api.o)
-                0x0000000008003fdc                ucg_com_SetCSLineStatus
+                0x0000000008004000       0x20 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_com_msg_api.o)
+                0x0000000008004000                ucg_com_SetCSLineStatus
  .text.ucg_com_SetCDLineStatus
-                0x0000000008003ffc       0x20 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_com_msg_api.o)
-                0x0000000008003ffc                ucg_com_SetCDLineStatus
+                0x0000000008004020       0x20 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_com_msg_api.o)
+                0x0000000008004020                ucg_com_SetCDLineStatus
  .text.ucg_com_DelayMicroseconds
-                0x000000000800401c       0x22 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_com_msg_api.o)
-                0x000000000800401c                ucg_com_DelayMicroseconds
+                0x0000000008004040       0x22 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_com_msg_api.o)
+                0x0000000008004040                ucg_com_DelayMicroseconds
  .text.ucg_com_DelayMilliseconds
-                0x000000000800403e       0x2c D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_com_msg_api.o)
-                0x000000000800403e                ucg_com_DelayMilliseconds
+                0x0000000008004062       0x2c D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_com_msg_api.o)
+                0x0000000008004062                ucg_com_DelayMilliseconds
  .text.ucg_com_SendByte
-                0x000000000800406a       0x24 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_com_msg_api.o)
-                0x000000000800406a                ucg_com_SendByte
+                0x000000000800408e       0x24 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_com_msg_api.o)
+                0x000000000800408e                ucg_com_SendByte
  .text.ucg_com_SendStringP
-                0x000000000800408e       0x40 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_com_msg_api.o)
-                0x000000000800408e                ucg_com_SendStringP
+                0x00000000080040b2       0x40 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_com_msg_api.o)
+                0x00000000080040b2                ucg_com_SendStringP
  .text.ucg_com_SendCmdArg
-                0x00000000080040ce       0x74 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_com_msg_api.o)
- *fill*         0x0000000008004142        0x2 
+                0x00000000080040f2       0x74 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_com_msg_api.o)
+ *fill*         0x0000000008004166        0x2 
  .text.ucg_com_SendCmdSeq
-                0x0000000008004144      0x278 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_com_msg_api.o)
-                0x0000000008004144                ucg_com_SendCmdSeq
- .text.__errno  0x00000000080043bc        0xc d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-errno.o)
-                0x00000000080043bc                __errno
+                0x0000000008004168      0x278 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_com_msg_api.o)
+                0x0000000008004168                ucg_com_SendCmdSeq
+ .text.__errno  0x00000000080043e0        0xc d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-errno.o)
+                0x00000000080043e0                __errno
  .text.__libc_init_array
-                0x00000000080043c8       0x48 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
-                0x00000000080043c8                __libc_init_array
- .text.memset   0x0000000008004410       0x10 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
-                0x0000000008004410                memset
- .text.sprintf  0x0000000008004420       0x40 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sprintf.o)
-                0x0000000008004420                siprintf
-                0x0000000008004420                sprintf
+                0x00000000080043ec       0x48 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+                0x00000000080043ec                __libc_init_array
+ .text.memset   0x0000000008004434       0x10 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+                0x0000000008004434                memset
+ .text.sprintf  0x0000000008004444       0x40 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sprintf.o)
+                0x0000000008004444                siprintf
+                0x0000000008004444                sprintf
  .text.__ssputs_r
-                0x0000000008004460       0xb6 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
-                0x0000000008004460                __ssputs_r
- *fill*         0x0000000008004516        0x2 
+                0x0000000008004484       0xb6 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x0000000008004484                __ssputs_r
+ *fill*         0x000000000800453a        0x2 
  .text._svfprintf_r
-                0x0000000008004518      0x200 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
-                0x0000000008004518                _svfiprintf_r
-                0x0000000008004518                _svfprintf_r
+                0x000000000800453c      0x200 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x000000000800453c                _svfiprintf_r
+                0x000000000800453c                _svfprintf_r
  .text._printf_common
-                0x0000000008004718       0xda d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x0000000008004718                _printf_common
- *fill*         0x00000000080047f2        0x2 
+                0x000000000800473c       0xda d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x000000000800473c                _printf_common
+ *fill*         0x0000000008004816        0x2 
  .text._printf_i
-                0x00000000080047f4      0x24c d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x00000000080047f4                _printf_i
- .text.memcpy   0x0000000008004a40       0x1c d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
-                0x0000000008004a40                memcpy
- .text.memmove  0x0000000008004a5c       0x34 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memmove.o)
-                0x0000000008004a5c                memmove
- .text._free_r  0x0000000008004a90       0x98 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-freer.o)
-                0x0000000008004a90                _free_r
+                0x0000000008004818      0x24c d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000008004818                _printf_i
+ .text.memcpy   0x0000000008004a64       0x1c d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+                0x0000000008004a64                memcpy
+ .text.memmove  0x0000000008004a80       0x34 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memmove.o)
+                0x0000000008004a80                memmove
+ .text._free_r  0x0000000008004ab4       0x98 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-freer.o)
+                0x0000000008004ab4                _free_r
  .text.sbrk_aligned
-                0x0000000008004b28       0x40 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+                0x0000000008004b4c       0x40 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
  .text._malloc_r
-                0x0000000008004b68       0xe8 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
-                0x0000000008004b68                _malloc_r
+                0x0000000008004b8c       0xe8 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+                0x0000000008004b8c                _malloc_r
  .text._realloc_r
-                0x0000000008004c50       0x5e d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-reallocr.o)
-                0x0000000008004c50                _realloc_r
- *fill*         0x0000000008004cae        0x2 
- .text._sbrk_r  0x0000000008004cb0       0x20 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sbrkr.o)
-                0x0000000008004cb0                _sbrk_r
+                0x0000000008004c74       0x5e d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-reallocr.o)
+                0x0000000008004c74                _realloc_r
+ *fill*         0x0000000008004cd2        0x2 
+ .text._sbrk_r  0x0000000008004cd4       0x20 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sbrkr.o)
+                0x0000000008004cd4                _sbrk_r
  .text.__malloc_lock
-                0x0000000008004cd0        0xc d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
-                0x0000000008004cd0                __malloc_lock
+                0x0000000008004cf4        0xc d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
+                0x0000000008004cf4                __malloc_lock
  .text.__malloc_unlock
-                0x0000000008004cdc        0xc d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
-                0x0000000008004cdc                __malloc_unlock
+                0x0000000008004d00        0xc d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
+                0x0000000008004d00                __malloc_unlock
  .text._malloc_usable_size_r
-                0x0000000008004ce8       0x10 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-msizer.o)
-                0x0000000008004ce8                _malloc_usable_size_r
+                0x0000000008004d0c       0x10 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-msizer.o)
+                0x0000000008004d0c                _malloc_usable_size_r
  .text.__retarget_lock_acquire_recursive
-                0x0000000008004cf8        0x2 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
-                0x0000000008004cf8                __retarget_lock_acquire_recursive
+                0x0000000008004d1c        0x2 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+                0x0000000008004d1c                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x0000000008004cfa        0x2 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
-                0x0000000008004cfa                __retarget_lock_release_recursive
+                0x0000000008004d1e        0x2 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+                0x0000000008004d1e                __retarget_lock_release_recursive
  *(.glue_7)
- .glue_7        0x0000000008004cfc        0x0 linker stubs
+ .glue_7        0x0000000008004d20        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0000000008004cfc        0x0 linker stubs
+ .glue_7t       0x0000000008004d20        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x0000000008004cfc        0x0 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .eh_frame      0x0000000008004d20        0x0 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.init)
- .init          0x0000000008004cfc        0x4 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x0000000008004cfc                _init
- .init          0x0000000008004d00        0x8 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .init          0x0000000008004d20        0x4 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x0000000008004d20                _init
+ .init          0x0000000008004d24        0x8 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
  *(.fini)
- .fini          0x0000000008004d08        0x4 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x0000000008004d08                _fini
- .fini          0x0000000008004d0c        0x8 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
-                0x0000000008004d14                . = ALIGN (0x4)
-                0x0000000008004d14                _etext = .
+ .fini          0x0000000008004d2c        0x4 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x0000000008004d2c                _fini
+ .fini          0x0000000008004d30        0x8 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x0000000008004d38                . = ALIGN (0x4)
+                0x0000000008004d38                _etext = .
 
-.vfp11_veneer   0x0000000008004d14        0x0
- .vfp11_veneer  0x0000000008004d14        0x0 linker stubs
+.vfp11_veneer   0x0000000008004d38        0x0
+ .vfp11_veneer  0x0000000008004d38        0x0 linker stubs
 
-.v4_bx          0x0000000008004d14        0x0
- .v4_bx         0x0000000008004d14        0x0 linker stubs
+.v4_bx          0x0000000008004d38        0x0
+ .v4_bx         0x0000000008004d38        0x0 linker stubs
 
-.iplt           0x0000000008004d14        0x0
- .iplt          0x0000000008004d14        0x0 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.iplt           0x0000000008004d38        0x0
+ .iplt          0x0000000008004d38        0x0 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.rodata         0x0000000008004d14      0x914
-                0x0000000008004d14                . = ALIGN (0x4)
+.rodata         0x0000000008004d38      0x914
+                0x0000000008004d38                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x0000000008004d14       0x48 ./Src/main.o
- .rodata        0x0000000008004d5c        0xf D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
+ .rodata        0x0000000008004d38       0x48 ./Src/main.o
+ .rodata        0x0000000008004d80        0xf D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
  *(.rodata*)
- *fill*         0x0000000008004d6b        0x1 
+ *fill*         0x0000000008004d8f        0x1 
  .rodata.ucg_st7735_set_pos_seq
-                0x0000000008004d6c       0x1e D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_ic_st7735.o)
-                0x0000000008004d6c                ucg_st7735_set_pos_seq
- *fill*         0x0000000008004d8a        0x2 
+                0x0000000008004d90       0x1e D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_ic_st7735.o)
+                0x0000000008004d90                ucg_st7735_set_pos_seq
+ *fill*         0x0000000008004dae        0x2 
  .rodata.ucg_st7735_set_pos_dir0_seq
-                0x0000000008004d8c       0x1e D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_ic_st7735.o)
-                0x0000000008004d8c                ucg_st7735_set_pos_dir0_seq
- *fill*         0x0000000008004daa        0x2 
+                0x0000000008004db0       0x1e D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_ic_st7735.o)
+                0x0000000008004db0                ucg_st7735_set_pos_dir0_seq
+ *fill*         0x0000000008004dce        0x2 
  .rodata.ucg_st7735_set_pos_dir1_seq
-                0x0000000008004dac       0x21 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_ic_st7735.o)
-                0x0000000008004dac                ucg_st7735_set_pos_dir1_seq
- *fill*         0x0000000008004dcd        0x3 
- .rodata.ucg_st7735_set_pos_dir2_seq
                 0x0000000008004dd0       0x21 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_ic_st7735.o)
-                0x0000000008004dd0                ucg_st7735_set_pos_dir2_seq
+                0x0000000008004dd0                ucg_st7735_set_pos_dir1_seq
  *fill*         0x0000000008004df1        0x3 
+ .rodata.ucg_st7735_set_pos_dir2_seq
+                0x0000000008004df4       0x21 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_ic_st7735.o)
+                0x0000000008004df4                ucg_st7735_set_pos_dir2_seq
+ *fill*         0x0000000008004e15        0x3 
  .rodata.ucg_st7735_set_pos_dir3_seq
-                0x0000000008004df4       0x24 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_ic_st7735.o)
-                0x0000000008004df4                ucg_st7735_set_pos_dir3_seq
+                0x0000000008004e18       0x24 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_ic_st7735.o)
+                0x0000000008004e18                ucg_st7735_set_pos_dir3_seq
  .rodata.ucg_st7735_power_down_seq
-                0x0000000008004e18        0x7 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_ic_st7735.o)
- *fill*         0x0000000008004e1f        0x1 
+                0x0000000008004e3c        0x7 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_ic_st7735.o)
+ *fill*         0x0000000008004e43        0x1 
  .rodata.ucg_tft_128x160_st7735_init_seq
-                0x0000000008004e20       0x2c D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_tft_128x128_st7735.o)
+                0x0000000008004e44       0x2c D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_tft_128x128_st7735.o)
  .rodata.ucg_font_ncenR12_hr
-                0x0000000008004e4c      0x7a8 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_pixel_font_data.o)
-                0x0000000008004e4c                ucg_font_ncenR12_hr
+                0x0000000008004e70      0x7a8 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_pixel_font_data.o)
+                0x0000000008004e70                ucg_font_ncenR12_hr
  .rodata._svfprintf_r.str1.1
-                0x00000000080055f4       0x11 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x0000000008005618       0x11 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
  .rodata._printf_i.str1.1
-                0x0000000008005605       0x22 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x0000000008005628                . = ALIGN (0x4)
- *fill*         0x0000000008005627        0x1 
+                0x0000000008005629       0x22 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x000000000800564c                . = ALIGN (0x4)
+ *fill*         0x000000000800564b        0x1 
 
-.rel.dyn        0x0000000008005628        0x0
- .rel.iplt      0x0000000008005628        0x0 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.rel.dyn        0x000000000800564c        0x0
+ .rel.iplt      0x000000000800564c        0x0 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.ARM.extab      0x0000000008005628        0x0
-                0x0000000008005628                . = ALIGN (0x4)
+.ARM.extab      0x000000000800564c        0x0
+                0x000000000800564c                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000008005628                . = ALIGN (0x4)
+                0x000000000800564c                . = ALIGN (0x4)
 
-.ARM            0x0000000008005628        0x0
-                0x0000000008005628                . = ALIGN (0x4)
-                0x0000000008005628                __exidx_start = .
+.ARM            0x000000000800564c        0x0
+                0x000000000800564c                . = ALIGN (0x4)
+                0x000000000800564c                __exidx_start = .
  *(.ARM.exidx*)
-                0x0000000008005628                __exidx_end = .
-                0x0000000008005628                . = ALIGN (0x4)
+                0x000000000800564c                __exidx_end = .
+                0x000000000800564c                . = ALIGN (0x4)
 
-.preinit_array  0x0000000008005628        0x0
-                0x0000000008005628                . = ALIGN (0x4)
-                0x0000000008005628                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x000000000800564c        0x0
+                0x000000000800564c                . = ALIGN (0x4)
+                0x000000000800564c                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x0000000008005628                PROVIDE (__preinit_array_end = .)
-                0x0000000008005628                . = ALIGN (0x4)
+                0x000000000800564c                PROVIDE (__preinit_array_end = .)
+                0x000000000800564c                . = ALIGN (0x4)
 
-.init_array     0x0000000008005628        0x4
-                0x0000000008005628                . = ALIGN (0x4)
-                0x0000000008005628                PROVIDE (__init_array_start = .)
+.init_array     0x000000000800564c        0x4
+                0x000000000800564c                . = ALIGN (0x4)
+                0x000000000800564c                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x0000000008005628        0x4 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x000000000800562c                PROVIDE (__init_array_end = .)
-                0x000000000800562c                . = ALIGN (0x4)
+ .init_array    0x000000000800564c        0x4 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x0000000008005650                PROVIDE (__init_array_end = .)
+                0x0000000008005650                . = ALIGN (0x4)
 
-.fini_array     0x000000000800562c        0x4
-                0x000000000800562c                . = ALIGN (0x4)
+.fini_array     0x0000000008005650        0x4
+                0x0000000008005650                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x000000000800562c        0x4 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .fini_array    0x0000000008005650        0x4 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x0000000008005630                . = ALIGN (0x4)
-                0x0000000008005630                _sidata = LOADADDR (.data)
+                0x0000000008005654                . = ALIGN (0x4)
+                0x0000000008005654                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000       0x8c load address 0x0000000008005630
+.data           0x0000000020000000       0x8c load address 0x0000000008005654
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -3370,11 +3370,11 @@ LOAD d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.
                 0x000000002000008c                . = ALIGN (0x4)
                 0x000000002000008c                _edata = .
 
-.igot.plt       0x000000002000008c        0x0 load address 0x00000000080056bc
+.igot.plt       0x000000002000008c        0x0 load address 0x00000000080056e0
  .igot.plt      0x000000002000008c        0x0 d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
                 0x000000002000008c                . = ALIGN (0x4)
 
-.bss            0x000000002000008c     0x12f4 load address 0x00000000080056bc
+.bss            0x000000002000008c     0x12f4 load address 0x00000000080056e0
                 0x000000002000008c                _sbss = .
                 0x000000002000008c                __bss_start__ = _sbss
  *(.bss)
@@ -3437,7 +3437,7 @@ LOAD d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.
                 0x0000000020001380                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x0000000020001380      0x600 load address 0x00000000080056bc
+                0x0000000020001380      0x600 load address 0x00000000080056e0
                 0x0000000020001380                . = ALIGN (0x8)
                 [!provide]                        PROVIDE (end = .)
                 0x0000000020001380                PROVIDE (_end = .)
@@ -3559,35 +3559,35 @@ LOAD d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.
 LOAD d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
 LOAD d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a
 
-.debug_info     0x0000000000000000    0x37c29
- .debug_info    0x0000000000000000     0x14f6 ./Src/main.o
- .debug_info    0x00000000000014f6      0x171 ./Src/sysmem.o
- .debug_info    0x0000000000001667       0x22 ./Startup/startup_stm32f401retx.o
- .debug_info    0x0000000000001689      0x5bb D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(system_stm32f4xx.o)
- .debug_info    0x0000000000001c44      0x62b D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_gpio.o)
- .debug_info    0x000000000000226f      0xb9e D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_i2c.o)
- .debug_info    0x0000000000002e0d      0xd5e D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_rcc.o)
- .debug_info    0x0000000000003b6b      0x922 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(timer.o)
- .debug_info    0x000000000000448d      0xafd D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(temhumsensor.o)
- .debug_info    0x0000000000004f8a      0xb11 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(serial.o)
- .debug_info    0x0000000000005a9b     0x333f D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(Ucglib.o)
- .debug_info    0x0000000000008dda     0x329d D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_box.o)
- .debug_info    0x000000000000c077     0x2b08 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_ccs.o)
- .debug_info    0x000000000000eb7f     0x324b D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_default_cb.o)
- .debug_info    0x0000000000011dca     0x3272 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_ic_st7735.o)
- .debug_info    0x000000000001503c     0x3178 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_msg_api.o)
- .debug_info    0x00000000000181b4     0x303e D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_tft_128x128_st7735.o)
- .debug_info    0x000000000001b1f2     0x43ab D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
- .debug_info    0x000000000001f59d     0x3856 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_init.o)
- .debug_info    0x0000000000022df3     0x3222 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_line.o)
- .debug_info    0x0000000000026015     0x3056 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_pixel.o)
- .debug_info    0x000000000002906b     0x43df D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_pixel_font_data.o)
- .debug_info    0x000000000002d44a     0x3231 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_rotate.o)
- .debug_info    0x000000000003067b      0x339 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(buff.o)
- .debug_info    0x00000000000309b4      0x2bd D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(utilities.o)
- .debug_info    0x0000000000030c71      0x9d4 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_usart.o)
- .debug_info    0x0000000000031645     0x315a D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_clip.o)
- .debug_info    0x000000000003479f     0x348a D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_com_msg_api.o)
+.debug_info     0x0000000000000000    0x37c2d
+ .debug_info    0x0000000000000000     0x14fa ./Src/main.o
+ .debug_info    0x00000000000014fa      0x171 ./Src/sysmem.o
+ .debug_info    0x000000000000166b       0x22 ./Startup/startup_stm32f401retx.o
+ .debug_info    0x000000000000168d      0x5bb D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(system_stm32f4xx.o)
+ .debug_info    0x0000000000001c48      0x62b D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_gpio.o)
+ .debug_info    0x0000000000002273      0xb9e D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_i2c.o)
+ .debug_info    0x0000000000002e11      0xd5e D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_rcc.o)
+ .debug_info    0x0000000000003b6f      0x922 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(timer.o)
+ .debug_info    0x0000000000004491      0xafd D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(temhumsensor.o)
+ .debug_info    0x0000000000004f8e      0xb11 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(serial.o)
+ .debug_info    0x0000000000005a9f     0x333f D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(Ucglib.o)
+ .debug_info    0x0000000000008dde     0x329d D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_box.o)
+ .debug_info    0x000000000000c07b     0x2b08 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_ccs.o)
+ .debug_info    0x000000000000eb83     0x324b D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_default_cb.o)
+ .debug_info    0x0000000000011dce     0x3272 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_ic_st7735.o)
+ .debug_info    0x0000000000015040     0x3178 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_msg_api.o)
+ .debug_info    0x00000000000181b8     0x303e D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_tft_128x128_st7735.o)
+ .debug_info    0x000000000001b1f6     0x43ab D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
+ .debug_info    0x000000000001f5a1     0x3856 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_init.o)
+ .debug_info    0x0000000000022df7     0x3222 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_line.o)
+ .debug_info    0x0000000000026019     0x3056 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_pixel.o)
+ .debug_info    0x000000000002906f     0x43df D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_pixel_font_data.o)
+ .debug_info    0x000000000002d44e     0x3231 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_rotate.o)
+ .debug_info    0x000000000003067f      0x339 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(buff.o)
+ .debug_info    0x00000000000309b8      0x2bd D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(utilities.o)
+ .debug_info    0x0000000000030c75      0x9d4 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_usart.o)
+ .debug_info    0x0000000000031649     0x315a D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_clip.o)
+ .debug_info    0x00000000000347a3     0x348a D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_com_msg_api.o)
 
 .debug_abbrev   0x0000000000000000     0x2de9
  .debug_abbrev  0x0000000000000000      0x3b9 ./Src/main.o
@@ -3814,92 +3814,92 @@ LOAD d:/stm32/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.
  .debug_macro   0x000000000000feb5       0x84 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_clip.o)
  .debug_macro   0x000000000000ff39       0x84 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_com_msg_api.o)
 
-.debug_line     0x0000000000000000     0xa3dd
- .debug_line    0x0000000000000000      0xe90 ./Src/main.o
- .debug_line    0x0000000000000e90      0x4fe ./Src/sysmem.o
- .debug_line    0x000000000000138e       0x84 ./Startup/startup_stm32f401retx.o
- .debug_line    0x0000000000001412      0x4a0 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(system_stm32f4xx.o)
- .debug_line    0x00000000000018b2      0x65e D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_gpio.o)
- .debug_line    0x0000000000001f10      0x7f1 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_i2c.o)
- .debug_line    0x0000000000002701      0x8d2 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_rcc.o)
- .debug_line    0x0000000000002fd3      0x684 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(timer.o)
- .debug_line    0x0000000000003657      0x841 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(temhumsensor.o)
- .debug_line    0x0000000000003e98      0x72b D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(serial.o)
- .debug_line    0x00000000000045c3      0x5cd D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(Ucglib.o)
- .debug_line    0x0000000000004b90      0x4c6 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_box.o)
- .debug_line    0x0000000000005056      0x420 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_ccs.o)
- .debug_line    0x0000000000005476      0x521 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_default_cb.o)
- .debug_line    0x0000000000005997      0x512 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_ic_st7735.o)
- .debug_line    0x0000000000005ea9      0x48a D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_msg_api.o)
- .debug_line    0x0000000000006333      0x403 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_tft_128x128_st7735.o)
- .debug_line    0x0000000000006736      0x971 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
- .debug_line    0x00000000000070a7      0x55c D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_init.o)
- .debug_line    0x0000000000007603      0x498 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_line.o)
- .debug_line    0x0000000000007a9b      0x400 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_pixel.o)
- .debug_line    0x0000000000007e9b      0x3e1 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_pixel_font_data.o)
- .debug_line    0x000000000000827c      0x5d4 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_rotate.o)
- .debug_line    0x0000000000008850      0x532 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(buff.o)
- .debug_line    0x0000000000008d82      0x46f D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(utilities.o)
- .debug_line    0x00000000000091f1      0x7a5 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_usart.o)
- .debug_line    0x0000000000009996      0x4c1 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_clip.o)
- .debug_line    0x0000000000009e57      0x586 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_com_msg_api.o)
+.debug_line     0x0000000000000000     0xa3e2
+ .debug_line    0x0000000000000000      0xe95 ./Src/main.o
+ .debug_line    0x0000000000000e95      0x4fe ./Src/sysmem.o
+ .debug_line    0x0000000000001393       0x84 ./Startup/startup_stm32f401retx.o
+ .debug_line    0x0000000000001417      0x4a0 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(system_stm32f4xx.o)
+ .debug_line    0x00000000000018b7      0x65e D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_gpio.o)
+ .debug_line    0x0000000000001f15      0x7f1 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_i2c.o)
+ .debug_line    0x0000000000002706      0x8d2 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_rcc.o)
+ .debug_line    0x0000000000002fd8      0x684 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(timer.o)
+ .debug_line    0x000000000000365c      0x841 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(temhumsensor.o)
+ .debug_line    0x0000000000003e9d      0x72b D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(serial.o)
+ .debug_line    0x00000000000045c8      0x5cd D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(Ucglib.o)
+ .debug_line    0x0000000000004b95      0x4c6 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_box.o)
+ .debug_line    0x000000000000505b      0x420 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_ccs.o)
+ .debug_line    0x000000000000547b      0x521 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_default_cb.o)
+ .debug_line    0x000000000000599c      0x512 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_ic_st7735.o)
+ .debug_line    0x0000000000005eae      0x48a D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_msg_api.o)
+ .debug_line    0x0000000000006338      0x403 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_tft_128x128_st7735.o)
+ .debug_line    0x000000000000673b      0x971 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
+ .debug_line    0x00000000000070ac      0x55c D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_init.o)
+ .debug_line    0x0000000000007608      0x498 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_line.o)
+ .debug_line    0x0000000000007aa0      0x400 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_pixel.o)
+ .debug_line    0x0000000000007ea0      0x3e1 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_pixel_font_data.o)
+ .debug_line    0x0000000000008281      0x5d4 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_rotate.o)
+ .debug_line    0x0000000000008855      0x532 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(buff.o)
+ .debug_line    0x0000000000008d87      0x46f D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(utilities.o)
+ .debug_line    0x00000000000091f6      0x7a5 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_usart.o)
+ .debug_line    0x000000000000999b      0x4c1 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_clip.o)
+ .debug_line    0x0000000000009e5c      0x586 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_com_msg_api.o)
 
-.debug_str      0x0000000000000000    0x4e50a
- .debug_str     0x0000000000000000    0x44227 ./Src/main.o
-                                      0x44593 (size before relaxing)
- .debug_str     0x0000000000044227      0x4d5 ./Src/sysmem.o
+.debug_str      0x0000000000000000    0x4e50f
+ .debug_str     0x0000000000000000    0x4422c ./Src/main.o
+                                      0x44598 (size before relaxing)
+ .debug_str     0x000000000004422c      0x4d5 ./Src/sysmem.o
                                        0x5dbd (size before relaxing)
- .debug_str     0x00000000000446fc       0x31 ./Startup/startup_stm32f401retx.o
+ .debug_str     0x0000000000044701       0x31 ./Startup/startup_stm32f401retx.o
                                          0x64 (size before relaxing)
- .debug_str     0x000000000004472d      0x6a4 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(system_stm32f4xx.o)
+ .debug_str     0x0000000000044732      0x6a4 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(system_stm32f4xx.o)
                                       0x3583e (size before relaxing)
- .debug_str     0x0000000000044dd1      0x171 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_gpio.o)
+ .debug_str     0x0000000000044dd6      0x171 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_gpio.o)
                                       0x3a690 (size before relaxing)
- .debug_str     0x0000000000044f42      0x39b D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_i2c.o)
+ .debug_str     0x0000000000044f47      0x39b D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_i2c.o)
                                       0x3af28 (size before relaxing)
- .debug_str     0x00000000000452dd      0xb26 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_rcc.o)
+ .debug_str     0x00000000000452e2      0xb26 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_rcc.o)
                                       0x39aa1 (size before relaxing)
- .debug_str     0x0000000000045e03      0x599 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(timer.o)
+ .debug_str     0x0000000000045e08      0x599 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(timer.o)
                                       0x39451 (size before relaxing)
- .debug_str     0x000000000004639c      0x817 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(temhumsensor.o)
+ .debug_str     0x00000000000463a1      0x817 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(temhumsensor.o)
                                       0x3cc44 (size before relaxing)
- .debug_str     0x0000000000046bb3     0x1df4 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(serial.o)
+ .debug_str     0x0000000000046bb8     0x1df4 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(serial.o)
                                       0x3cca1 (size before relaxing)
- .debug_str     0x00000000000489a7     0x42ec D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(Ucglib.o)
+ .debug_str     0x00000000000489ac     0x42ec D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(Ucglib.o)
                                       0x4067c (size before relaxing)
- .debug_str     0x000000000004cc93       0x76 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_box.o)
+ .debug_str     0x000000000004cc98       0x76 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_box.o)
                                        0x9c13 (size before relaxing)
- .debug_str     0x000000000004cd09       0x48 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_ccs.o)
+ .debug_str     0x000000000004cd0e       0x48 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_ccs.o)
                                        0x97ef (size before relaxing)
- .debug_str     0x000000000004cd51       0xaf D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_default_cb.o)
+ .debug_str     0x000000000004cd56       0xaf D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_default_cb.o)
                                        0x9c41 (size before relaxing)
- .debug_str     0x000000000004ce00      0x135 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_ic_st7735.o)
+ .debug_str     0x000000000004ce05      0x135 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_ic_st7735.o)
                                        0x9ce5 (size before relaxing)
- .debug_str     0x000000000004cf35       0xce D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_msg_api.o)
+ .debug_str     0x000000000004cf3a       0xce D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_msg_api.o)
                                        0x9c5b (size before relaxing)
- .debug_str     0x000000000004d003       0x68 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_tft_128x128_st7735.o)
+ .debug_str     0x000000000004d008       0x68 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_dev_tft_128x128_st7735.o)
                                        0x9c0a (size before relaxing)
- .debug_str     0x000000000004d06b      0xa06 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
+ .debug_str     0x000000000004d070      0xa06 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_font.o)
                                        0xd07e (size before relaxing)
- .debug_str     0x000000000004da71       0x35 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_init.o)
+ .debug_str     0x000000000004da76       0x35 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_init.o)
                                        0xcb75 (size before relaxing)
- .debug_str     0x000000000004daa6       0x8d D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_line.o)
+ .debug_str     0x000000000004daab       0x8d D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_line.o)
                                        0x9c1a (size before relaxing)
- .debug_str     0x000000000004db33       0x2b D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_pixel.o)
+ .debug_str     0x000000000004db38       0x2b D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_pixel.o)
                                        0x9bc5 (size before relaxing)
- .debug_str     0x000000000004db5e       0x27 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_pixel_font_data.o)
+ .debug_str     0x000000000004db63       0x27 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_pixel_font_data.o)
                                        0x9785 (size before relaxing)
- .debug_str     0x000000000004db85       0xc6 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_rotate.o)
+ .debug_str     0x000000000004db8a       0xc6 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_rotate.o)
                                        0x9fb3 (size before relaxing)
- .debug_str     0x000000000004dc4b       0x93 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(buff.o)
+ .debug_str     0x000000000004dc50       0x93 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(buff.o)
                                       0x35751 (size before relaxing)
- .debug_str     0x000000000004dcde       0xb3 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(utilities.o)
+ .debug_str     0x000000000004dce3       0xb3 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(utilities.o)
                                        0x3d14 (size before relaxing)
- .debug_str     0x000000000004dd91      0x4ca D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_usart.o)
+ .debug_str     0x000000000004dd96      0x4ca D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(stm32f401re_usart.o)
                                       0x3a79e (size before relaxing)
- .debug_str     0x000000000004e25b       0xa5 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_clip.o)
+ .debug_str     0x000000000004e260       0xa5 D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_clip.o)
                                        0x9c32 (size before relaxing)
- .debug_str     0x000000000004e300      0x20a D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_com_msg_api.o)
+ .debug_str     0x000000000004e305      0x20a D:\stm32\stmlumi\ktgiuaky_thuctapcoso_group3\Driver\lib_stm\libLibraries.a(ucg_com_msg_api.o)
                                        0x9ddf (size before relaxing)
 
 .comment        0x0000000000000000       0xcb
